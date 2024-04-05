@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+ width: fit-content;
+ scroll-behavior: smooth;
+}
+body{
+  background-color: white;
+  @apply m-0
+}
+
+
+
+header ul li{
+  @apply px-3
+}
+
+.bg-primary{
+  background:rgb(85 81 227)
+}
+
+.mobile-nav{
+  @apply fixed top-10 bg-black left-0 w-full h-1/4
+}
+
+
+.mobile-nav  li{ 
+  @apply w-full text-center border-b-2 h-full
+}
+
+
+.bg-secondary {
+  background: #2b2d77;
+  }
+
+
+  .download-button {
+    @apply bg-secondary px-5 py-2 font-bold hover:border-2 border-white rounded;
+}
